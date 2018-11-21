@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var mongoose = require('mongoose');
-var url = "mongodb://localhost/dbUsers";
+var url = "mongodb://ip-172-31-42-188.us-west-2.compute.internal/dbUsers";
 var option ={ useNewUrlParser: true };
 var cors = require('cors');
 mongoose.connect(url,option);
